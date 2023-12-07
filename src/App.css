@@ -3,3 +3,28 @@
   margin: 0;
   padding: 0;
 }
+html{
+  height: 100%;
+  --surface-primary:#f8d4bd;
+  --surface-secondary:#fa8907;
+  --surface-tertiary:#f1d6c4;
+  --nav-primary:#000;
+  --nav-secondary:#9d3615;
+  --title-primary:#0f4e8c;
+  --shadow-primary: #fff;
+  --text-primary:#000;
+  --icon-bg-primary:#fff;
+}
+.dark{
+  --surface-primary:#072b42;
+  --surface-secondary:##2a85cb;
+  --nav-primary:#ffffff;
+  --nav-secondary:#62c9ea;
+  --title-primary:#f0b173;
+  --shadow-primary: #000;
+  --text-primary:#ffffff;
+}
+body{
+  min-height: 100%;
+  background: var(--surface-primary) !important;
+}

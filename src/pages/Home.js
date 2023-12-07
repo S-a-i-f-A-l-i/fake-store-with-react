@@ -1,8 +1,14 @@
 import React from "react";
-import { Layout } from "../components";
+import { Banner, Item, Layout } from "../components";
 
 const Home = () => {
-  return <Layout>Home</Layout>;
+  return (
+    <Layout>
+      <Banner />
+      <h1>Home</h1>
+      <Item />
+    </Layout>
+  );
 };
 
 export default Home;
